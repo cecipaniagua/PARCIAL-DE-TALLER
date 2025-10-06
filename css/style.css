@@ -474,7 +474,7 @@ nav {
     padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
 }
-/* 🌟 SECCIÓN DE LISTAS */
+/* SECCIÓN DE LISTAS */
 .list-section {
     display: flex;
     justify-content: space-between;
@@ -487,9 +487,9 @@ nav {
     color: #fff;
 }
 
-/* 📱 Responsive */
+/* Responsive */
 
-/* 🪩 Cada bloque de lista */
+/* Cada bloque de lista */
 .list-section div {
     flex: 1;
     background: rgba(255, 255, 255, 0.05);
@@ -501,7 +501,7 @@ nav {
 
 
 
-/* ✨ Títulos */
+/*  Títulos */
 .list-section h2 {
     font-size: 1.6rem;
     margin-bottom: 1rem;
@@ -512,7 +512,7 @@ nav {
     padding-bottom: 0.5rem;
 }
 
-/* ✅ Lista no ordenada */
+/*  Lista no ordenada */
 .list-section ul {
     list-style: none;
   padding: 0;
@@ -531,7 +531,7 @@ nav {
     color: #00ffe0;
 }
 
-/* 🔥 Lista ordenada */
+/*  Lista ordenada */
 .list-section ol {
     padding-left: 1.2rem;
     counter-reset: item;
@@ -548,6 +548,36 @@ nav {
     font-weight: bold;
     font-size: 1.2rem;
 }
+/*form contac*/
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 1.5rem;
+}
+.contact-form label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--color-neon-pink);
+}
+.contact-form input,
+.contact-form textarea {
+    padding: 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--border-radius-base);
+    background-color: var(--color-dark);
+    color: var(--color-text-light);
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.contact-form fieldset {
+    border: 1px solid var(--color-text-darker);
+    padding: 1.5rem 1rem;
+    border-radius: var(--border-radius-base);    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
+}
 
 /* PIE DE PÁGINA */
 footer {
@@ -561,6 +591,13 @@ footer {
 footer p {
     color: var(--color-text-darker);
     font-size: 0.9rem;
+}
+.social-links a {
+    color: var(--color-neon-pink);
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    list-style: none;      
 }
 
 .author-name {
